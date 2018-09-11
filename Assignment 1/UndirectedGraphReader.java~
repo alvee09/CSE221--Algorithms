@@ -1,0 +1,16 @@
+import java.util.*;
+import java.io.*;
+
+public class UndirectedGraphReader throws Exception
+{
+  public static void main(String[] args)
+  {
+    FileReader fr= new FileReader("./input.txt");
+    Scanner input= new Scanner(fr);
+    int vertices= (int)input.next();
+    input.nextLine();
+    int edges= (int)input.nextInt();
+    
+    
+  }
+}
